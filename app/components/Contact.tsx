@@ -9,7 +9,7 @@ const socials = [
 
 export default function Contact() {
   return (
-    <div id="contact" data-aos="fade-up">
+    <div data-aos="fade-up">
       <p style={{ textAlign: 'center', color: '#64748b', marginBottom: '32px' }}>
         I&apos;m always open to collaborations and new opportunities.
       </p>
