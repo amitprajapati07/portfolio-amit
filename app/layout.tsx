@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import './globals.css'
 
-const start = new Date('2022-03-01')
-const yearsOfExperience = Math.floor((new Date().getTime() - start.getTime()) / 31557600000)
+const start = new Date('2023-02-26')
+const yearsOfExperience = ((new Date().getTime() - start.getTime()) / 31557600000).toFixed(1)
 
 export const metadata: Metadata = {
   title: 'Amit Kumar – Python Developer',

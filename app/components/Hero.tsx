@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
 export default function Hero() {
-  const start = new Date('2022-03-01')
-  const yearsOfExperience = Math.floor((new Date().getTime() - start.getTime()) / 31557600000)
+  const start = new Date('2023-02-26')
+  const yearsOfExperience = ((new Date().getTime() - start.getTime()) / 31557600000).toFixed(1)
 
   return (
     <section id="about" className="hero-split">
