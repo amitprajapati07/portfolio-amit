@@ -11,20 +11,15 @@ export default function About() {
         <div className="about-grid">
           <div className="about-text" data-aos="fade-right">
             <p>
-              I&apos;m a <strong>Python Developer</strong> based in Ludhiana, Punjab with{' '}
-              <strong>3+ years of hands-on experience</strong> designing and building
-              production-grade backend systems. My work spans from REST APIs and database
-              architecture to cloud deployments and payment integrations.
+              I am a dynamic and outcome-focused <strong>Python Full Stack Developer</strong> based in Ludhiana, Punjab with <strong>3.1+ years of professional experience</strong>. I specialize in architecting highly scalable web applications, building dynamic frontends with <strong>React and Next.js</strong>, and developing robust REST/GraphQL APIs using <strong>Django, FastAPI, and Flask</strong>.
+            </p>
+            <p>
+              My expertise extends to building complex backend infrastructures on <strong>AWS</strong>, integrating state-of-the-art <strong>AI Agents, LLMs, and NLP</strong> capabilities, and developing intelligent computer vision automation pipelines with <strong>OpenCV</strong>.
             </p>
             <p>
               At <strong>LN Webworks</strong> and previously at <strong>Aviox Technologies</strong>,
               I&apos;ve engineered solutions that handle millions of records, automated billing for ISPs,
-              built identity verification platforms, and integrated complex telecoms APIs — all while
-              mentoring juniors and collaborating closely with clients.
-            </p>
-            <p>
-              I&apos;m passionate about writing <em>clean, modular code</em> that solves real business
-              problems and stands the test of time.
+              built identity verification platforms, and integrated complex telecoms APIs. I am passionate about writing clean, modular, and maintainable code that drives measurable business impact and ensures high-availability across cloud-native environments.
             </p>
 
             <div className="about-facts">
@@ -66,6 +61,7 @@ export default function About() {
           <div className="about-cards" data-aos="fade-left">
             {[
               { cls: 'ac-purple', icon: '🚀', title: 'Backend First', desc: 'Architecting robust, performant APIs that power products at scale using Django, FastAPI & Flask.' },
+              { cls: 'ac-pink',   icon: '⚛️', title: 'Modern Frontend', desc: 'Building responsive, dynamic user interfaces and full-stack web apps using React and Next.js.' },
               { cls: 'ac-cyan',   icon: '☁️', title: 'Cloud Native',  desc: 'Deploying and managing apps on AWS (EC2, S3, RDS, ECR, Lambda) with Docker containers.' },
               { cls: 'ac-amber',  icon: '⚙️', title: 'Systems Thinker', desc: 'From Celery queues to SAML auth to payment gateways — integrating complex systems reliably.' },
             ].map(c => (

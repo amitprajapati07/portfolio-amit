@@ -12,13 +12,13 @@ const projects = [
     cat: 'Telecom/Automation',
     title: 'Trade-Connect Portal',
     desc: 'Telecom service orchestration platform integrating Superloop CAPI and SMILE API for NBN diagnostics and service sync with SAML 2.0 + JWT auth.',
-    tags: ['Django', 'SAML 2.0', 'Superloop API', 'Celery'],
+    tags: ['Django', 'React', 'SAML 2.0', 'Superloop API', 'Celery'],
   },
   {
     cat: 'Fintech/Automation',
     title: 'RealWorldNetworks – ISP Billing Portal',
     desc: 'Complete ISP billing system with automated invoicing via Xero, eliminating manual billing entirely. Includes pro-rata billing and real-time financial tracking.',
-    tags: ['Django', 'Xero API', 'Celery', 'PostgreSQL'],
+    tags: ['Django', 'React', 'Xero API', 'Celery', 'PostgreSQL'],
   },
   {
     cat: 'AI/Automation',
@@ -97,8 +97,8 @@ export default function Projects() {
         {projects
           .filter(p => {
             if (filter === 'All') return true
-            return p.cat.toLowerCase().includes(filter.toLowerCase()) || 
-                   p.title.toLowerCase().includes(filter.toLowerCase())
+            return p.cat.toLowerCase().includes(filter.toLowerCase()) ||
+              p.title.toLowerCase().includes(filter.toLowerCase())
           })
           .map((p, i) => (
             <div className="card proj-card" key={p.title + i}>

@@ -7,6 +7,7 @@ const experiences = [
     period: 'Aug 2024 – Present',
     achievements: [
       'Design, develop and maintain scalable backend systems using Django and Flask.',
+      'Build full-stack applications by integrating robust backends with modern React and Next.js frontends.',
       'Build secure, high-performance RESTful APIs for web and mobile applications.',
       'Implement authentication, authorization, middleware, and session handling.',
       'Optimize application performance to handle high traffic and large datasets.',

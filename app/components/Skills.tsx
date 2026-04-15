@@ -1,7 +1,7 @@
 'use client'
 
 import { FaAws, FaDocker, FaRobot, FaSpaceShuttle, FaMousePointer, FaHtml5, FaCss3Alt, FaGitAlt, FaBrain, FaDatabase, FaClock, FaBitbucket, FaBug, FaVial, FaTasks, FaBook, FaServer, FaCubes } from 'react-icons/fa'
-import { SiPython, SiDjango, SiFastapi, SiFlask, SiPostgresql, SiMysql, SiMongodb, SiCelery, SiRedis, SiJavascript, SiOpencv, SiRazorpay, SiStripe, SiPaypal } from 'react-icons/si'
+import { SiPython, SiDjango, SiFastapi, SiFlask, SiPostgresql, SiMysql, SiMongodb, SiCelery, SiRedis, SiJavascript, SiOpencv, SiRazorpay, SiStripe, SiPaypal, SiReact, SiNextdotjs } from 'react-icons/si'
 import { BsChatDots, BsCodeSlash } from 'react-icons/bs'
 import { TbCube, TbApi } from 'react-icons/tb'
 
@@ -57,6 +57,8 @@ const skills = [
   
   // Frontend
   { icon: <SiJavascript size={40} color="#F7DF1E" />, name: 'JavaScript' },
+  { icon: <SiReact size={40} color="#61DAFB" />, name: 'React' },
+  { icon: <SiNextdotjs size={40} color="#FFFFFF" />, name: 'Next.js' },
   { icon: <FaHtml5 size={40} color="#E34F26" />, name: 'HTML' },
   { icon: <FaCss3Alt size={40} color="#1572B6" />, name: 'CSS' },
 ]
