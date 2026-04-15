@@ -1,11 +1,13 @@
 export default function Footer() {
-  const links = ['about', 'skills', 'experience', 'projects', 'education', 'contact']
+  const links = ['about', 'skills', 'experience', 'projects', 'contact']
   return (
     <footer className="footer">
       <div className="footer-inner">
         <div>
-          <div className="footer-logo">AK<span className="dot">.</span></div>
-          <p className="footer-tagline">Python Developer · Building Scalable Backends</p>
+          <div className="footer-logo">
+            <span style={{ color: '#0f172a' }}>{`</>`}</span> Amit Kumar
+          </div>
+          <p className="footer-tagline">Python Full Stack Developer · Building Scalable Backends</p>
         </div>
         <div className="footer-links">
           {links.map(l => (
@@ -14,6 +16,7 @@ export default function Footer() {
         </div>
         <p className="footer-copy">© 2025 Amit Kumar. All rights reserved. Built with ❤️ for excellence.</p>
       </div>
+
     </footer>
   )
 }
