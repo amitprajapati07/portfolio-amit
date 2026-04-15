@@ -1,7 +1,7 @@
 'use client'
 
-import { FaAws, FaDocker, FaRobot, FaSpaceShuttle, FaMousePointer, FaReact, FaHtml5, FaCss3Alt, FaGitAlt, FaBrain, FaDatabase, FaClock, FaBitbucket, FaBug, FaVial, FaTasks, FaBook, FaServer, FaCubes } from 'react-icons/fa'
-import { SiPython, SiDjango, SiFastapi, SiFlask, SiPostgresql, SiMysql, SiMongodb, SiCelery, SiRedis, SiOclc, SiJavascript, SiOpencv, SiRazorpay, SiStripe, SiPaypal } from 'react-icons/si'
+import { FaAws, FaDocker, FaRobot, FaSpaceShuttle, FaMousePointer, FaHtml5, FaCss3Alt, FaGitAlt, FaBrain, FaDatabase, FaClock, FaBitbucket, FaBug, FaVial, FaTasks, FaBook, FaServer, FaCubes } from 'react-icons/fa'
+import { SiPython, SiDjango, SiFastapi, SiFlask, SiPostgresql, SiMysql, SiMongodb, SiCelery, SiRedis, SiJavascript, SiOpencv, SiRazorpay, SiStripe, SiPaypal } from 'react-icons/si'
 import { BsChatDots, BsCodeSlash } from 'react-icons/bs'
 import { TbCube, TbApi } from 'react-icons/tb'
 

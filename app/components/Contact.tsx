@@ -14,7 +14,7 @@ export default function Contact() {
         I&apos;m always open to collaborations and new opportunities.
       </p>
       <div className="contact-grid">
-        {socials.map((s, i) => {
+        {socials.map((s) => {
           const content = (
             <div className="card contact-tile">
               <span>{s.icon}</span>

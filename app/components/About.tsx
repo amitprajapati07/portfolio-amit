@@ -11,19 +11,19 @@ export default function About() {
         <div className="about-grid">
           <div className="about-text" data-aos="fade-right">
             <p>
-              I'm a <strong>Python Developer</strong> based in Ludhiana, Punjab with{' '}
+              I&apos;m a <strong>Python Developer</strong> based in Ludhiana, Punjab with{' '}
               <strong>3+ years of hands-on experience</strong> designing and building
               production-grade backend systems. My work spans from REST APIs and database
               architecture to cloud deployments and payment integrations.
             </p>
             <p>
               At <strong>LN Webworks</strong> and previously at <strong>Aviox Technologies</strong>,
-              I've engineered solutions that handle millions of records, automated billing for ISPs,
+              I&apos;ve engineered solutions that handle millions of records, automated billing for ISPs,
               built identity verification platforms, and integrated complex telecoms APIs — all while
               mentoring juniors and collaborating closely with clients.
             </p>
             <p>
-              I'm passionate about writing <em>clean, modular code</em> that solves real business
+              I&apos;m passionate about writing <em>clean, modular code</em> that solves real business
               problems and stands the test of time.
             </p>
 
