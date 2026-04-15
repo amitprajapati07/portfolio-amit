@@ -215,8 +215,54 @@ ul { list-style: none; }
   opacity: 0.8;
 }
 
+@media (max-width: 1024px) {
+  .projects-grid { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+}
+
 @media (max-width: 768px) {
-  .nav-links { display: none; }
-  .contact-grid { grid-template-columns: repeat(2, 1fr); }
-  .section-title { font-size: 1.5rem; }
+  /* Navbar */
+  .nav-inner { flex-direction: column; height: auto; padding: 16px 0; gap: 16px; }
+  .nav-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; }
+  .nav-links a { font-size: 0.85rem; }
+  
+  /* Sections */
+  .section { padding: 60px 0; }
+  .section-title { font-size: 1.5rem; margin-bottom: 32px; flex-direction: column; text-align: center; gap: 8px; }
+  
+  /* Hero */
+  .hero-split { padding: 60px 0; }
+  .hero-name { font-size: 2rem; }
+  .hero-role { font-size: 1.1rem; }
+  
+  /* Experience */
+  .exp-card { padding: 24px; }
+  .exp-header { flex-direction: column; align-items: center; text-align: center; gap: 12px; }
+  
+  /* Contact */
+  .contact-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  
+  /* Footer */
+  .footer-links { gap: 12px; }
+}
+
+@media (max-width: 480px) {
+  /* Layout constraints for smart phones */
+  .container { padding: 0 16px; }
+  
+  /* Hero */
+  .portrait-frame { width: 220px; height: 280px; }
+  .hero-ctas { flex-direction: column; width: 100%; }
+  .hero-ctas a { width: 100%; text-align: center; margin-left: 0 !important; }
+  
+  /* Grids */
+  .skills-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .projects-grid { grid-template-columns: 1fr; }
+  
+  /* Project filters */
+  .proj-filters { flex-wrap: wrap; }
+  .filter-btn { flex: 1; text-align: center; font-size: 0.75rem; padding: 6px 10px; }
+  
+  /* Contact & Content */
+  .contact-grid { grid-template-columns: 1fr; }
+  .exp-list li { font-size: 0.85rem; }
 }
