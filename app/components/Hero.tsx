@@ -1,6 +1,9 @@
 import Image from 'next/image'
 
 export default function Hero() {
+  const start = new Date('2022-03-01')
+  const yearsOfExperience = Math.floor((new Date().getTime() - start.getTime()) / 31557600000)
+
   return (
     <section id="about" className="hero-split">
       <div className="container hero-split-inner">
@@ -24,7 +27,7 @@ export default function Hero() {
           <h1 className="hero-name">Amit Kumar</h1>
           <p className="hero-role">Python Full Stack Developer</p>
           <p className="hero-bio">
-            Python Full Stack Developer with 3+ years of professional experience building scalable web applications using Django, FastAPI, and Flask. Specialized in architecting <strong>AI Agents</strong> and integrating <strong>LLMs</strong> using tools like <strong>Ollama</strong>, <strong>Antigravity</strong>, and <strong>Cursor</strong>. Strong expertise in <strong>Computer Vision (OpenCV)</strong>, <strong>NLP</strong>, and cloud-native solutions on AWS. Known for delivering robust, AI-driven backend systems with clean, modular code.
+            Python Full Stack Developer with {yearsOfExperience}+ years of professional experience building scalable web applications using Django, FastAPI, and Flask. Specialized in architecting <strong>AI Agents</strong> and integrating <strong>LLMs</strong> using tools like <strong>Ollama</strong>, <strong>Antigravity</strong>, and <strong>Cursor</strong>. Strong expertise in <strong>Computer Vision (OpenCV)</strong>, <strong>NLP</strong>, and cloud-native solutions on AWS. Known for delivering robust, AI-driven backend systems with clean, modular code.
           </p>
           <div className="hero-ctas">
             <a href="mailto:kaleranamit@gmail.com" className="filter-btn active">Get in Touch</a>
