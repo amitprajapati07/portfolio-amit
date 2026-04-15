@@ -27,7 +27,7 @@ export default function Hero() {
           <h1 className="hero-name">Amit Kumar</h1>
           <p className="hero-role">Python Full Stack Developer</p>
           <p className="hero-bio">
-            Python Full Stack Developer with {yearsOfExperience}+ years of professional experience building scalable web applications using Django, FastAPI, and Flask. Specialized in architecting <strong>AI Agents</strong> and integrating <strong>LLMs</strong> using tools like <strong>Ollama</strong>, <strong>Antigravity</strong>, and <strong>Cursor</strong>. Strong expertise in <strong>Computer Vision (OpenCV)</strong>, <strong>NLP</strong>, and cloud-native solutions on AWS. Known for delivering robust, AI-driven backend systems with clean, modular code.
+            A dynamic and outcome-focused <strong>Python Full Stack Developer</strong> with <strong>{yearsOfExperience}+ years</strong> of professional experience. I specialize in architecting highly scalable web applications and robust REST/GraphQL APIs using <strong>Django</strong>, <strong>FastAPI</strong>, and <strong>Flask</strong>. My expertise extends to building complex backend infrastructures on <strong>AWS</strong>, integrating state-of-the-art <strong>AI Agents, LLMs, and NLP</strong> capabilities, and developing intelligent computer vision automation pipelines with <strong>OpenCV</strong>. I am passionate about writing clean, modular, and maintainable code that drives measurable business impact and ensures high-availability across cloud-native environments.
           </p>
           <div className="hero-ctas">
             <a href="mailto:kaleranamit@gmail.com" className="filter-btn active">Get in Touch</a>
