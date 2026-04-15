@@ -1,7 +1,7 @@
 'use client'
 
-import { FaAws, FaDocker, FaRobot, FaSpaceShuttle, FaMousePointer, FaHtml5, FaCss3Alt, FaGitAlt, FaBrain, FaDatabase, FaClock, FaBitbucket, FaBug, FaVial, FaTasks, FaBook, FaServer, FaCubes } from 'react-icons/fa'
-import { SiPython, SiDjango, SiFastapi, SiFlask, SiPostgresql, SiMysql, SiMongodb, SiCelery, SiRedis, SiJavascript, SiKnexdotjs, SiOpencv, SiRazorpay, SiStripe, SiPaypal, SiReact, SiNextdotjs, SiSocketdotio } from 'react-icons/si'
+import { FaAws, FaDocker, FaRobot, FaSpaceShuttle, FaMousePointer, FaHtml5, FaCss3Alt, FaGitAlt, FaBrain, FaDatabase, FaClock, FaBitbucket, FaBug, FaVial, FaTasks, FaBook, FaServer, FaCubes, FaProjectDiagram, FaNetworkWired } from 'react-icons/fa'
+import { SiPython, SiDjango, SiFastapi, SiFlask, SiPostgresql, SiMysql, SiMongodb, SiCelery, SiRedis, SiJavascript, SiKnexdotjs, SiOpencv, SiRazorpay, SiStripe, SiPaypal, SiReact, SiNextdotjs, SiSocketdotio, SiNginx, SiGunicorn, SiPuppeteer, SiSelenium } from 'react-icons/si'
 import { BsChatDots, BsCodeSlash, BsChatRightDots } from 'react-icons/bs'
 import { TbCube, TbApi } from 'react-icons/tb'
 
@@ -27,6 +27,9 @@ const skills = [
   { icon: <SiCelery size={40} color="#37814A" />, name: 'Celery' },
   { icon: <FaClock size={40} color="#64748b" />, name: 'Cronjobs' },
   { icon: <SiRedis size={40} color="#DC382D" />, name: 'Redis' },
+  { icon: <SiNginx size={40} color="#009639" />, name: 'Nginx' },
+  { icon: <SiGunicorn size={40} color="#499848" />, name: 'Gunicorn' },
+  { icon: <FaNetworkWired size={40} color="#00A3E0" />, name: 'Load Balancing' },
 
   // VCS
   { icon: <FaGitAlt size={40} color="#F05032" />, name: 'Git' },
@@ -40,12 +43,15 @@ const skills = [
 
   // Engineering & Core
   { icon: <TbApi size={40} color="#7c3aed" />, name: 'API Dev' },
+  { icon: <FaProjectDiagram size={40} color="#7c3aed" />, name: 'System Design' },
   { icon: <SiSocketdotio size={40} color="#010101" />, name: 'WebSockets' },
   { icon: <SiDjango size={40} color="#092E20" />, name: 'Channels' },
   { icon: <BsChatRightDots size={40} color="#7c3aed" />, name: 'Chat Apps' },
   { icon: <BsCodeSlash size={40} color="#1572B6" />, name: 'Data Sync' },
   { icon: <FaBug size={40} color="#E34F26" />, name: 'Debugging' },
   { icon: <FaVial size={40} color="#00A261" />, name: 'Unit Testing' },
+  { icon: <SiPuppeteer size={40} color="#2EAD33" />, name: 'Playwright' },
+  { icon: <SiSelenium size={40} color="#43B02A" />, name: 'Selenium' },
   { icon: <FaTasks size={40} color="#3776AB" />, name: 'Task Mgmt' },
   { icon: <FaBook size={40} color="#24292E" />, name: 'Docs' },
 
