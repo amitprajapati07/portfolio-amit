@@ -1,6 +1,7 @@
-import Navbar     from './components/Navbar'
-import Hero       from './components/Hero'
-import Skills     from './components/Skills'
+import Navbar       from './components/Navbar'
+import IntroBanner   from './components/IntroBanner'
+import Hero         from './components/Hero'
+import Skills       from './components/Skills'
 import Experience from './components/Experience'
 import Projects   from './components/Projects'
 import Contact    from './components/Contact'
@@ -13,6 +14,7 @@ export default function Page() {
       <AosInit />
       <Navbar />
       <main>
+        <IntroBanner />
         <Hero />
         <section id="skills" className="section">
           <div className="container">
