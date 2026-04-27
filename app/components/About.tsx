@@ -11,7 +11,7 @@ export default function About() {
         <div className="about-grid">
           <div className="about-text" data-aos="fade-right">
             <p>
-              I am a dynamic and outcome-focused <strong>Python Full Stack Developer</strong> based in Ludhiana, Punjab with <strong>3.1+ years of professional experience</strong>. I specialize in architecting highly scalable web applications, building dynamic frontends with <strong>React and Next.js</strong>, and developing robust REST/GraphQL APIs using <strong>Django, FastAPI, and Flask</strong>.
+              I am a dynamic and outcome-focused <strong>Python Full Stack Developer</strong> based in Ludhiana, Punjab with <strong>3.2 years of professional experience</strong>. I specialize in architecting highly scalable web applications, building dynamic frontends with <strong>React and Next.js</strong>, and developing robust REST/GraphQL APIs using <strong>Django, FastAPI, and Flask</strong>.
             </p>
             <p>
               My expertise extends to building complex backend infrastructures on <strong>AWS</strong>, integrating state-of-the-art <strong>AI Agents, LLMs, and NLP</strong> capabilities, and developing intelligent computer vision automation pipelines with <strong>OpenCV</strong>.
@@ -50,8 +50,8 @@ export default function About() {
               </a>
               <a href="mailto:kaleranamit@gmail.com" className="btn-primary">
                 <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                  <polyline points="22,6 12,12 2,6"/>
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,12 2,6" />
                 </svg>
                 Email Me
               </a>
@@ -61,9 +61,9 @@ export default function About() {
           <div className="about-cards" data-aos="fade-left">
             {[
               { cls: 'ac-purple', icon: '🚀', title: 'Backend First', desc: 'Architecting robust, performant APIs that power products at scale using Django, FastAPI & Flask.' },
-              { cls: 'ac-pink',   icon: '⚛️', title: 'Modern Frontend', desc: 'Building responsive, dynamic user interfaces and full-stack web apps using React and Next.js.' },
-              { cls: 'ac-cyan',   icon: '☁️', title: 'Cloud Native',  desc: 'Deploying and managing apps on AWS (EC2, S3, RDS, ECR, Lambda) with Docker containers.' },
-              { cls: 'ac-amber',  icon: '⚙️', title: 'Systems Thinker', desc: 'From Celery queues to SAML auth to payment gateways — integrating complex systems reliably.' },
+              { cls: 'ac-pink', icon: '⚛️', title: 'Modern Frontend', desc: 'Building responsive, dynamic user interfaces and full-stack web apps using React and Next.js.' },
+              { cls: 'ac-cyan', icon: '☁️', title: 'Cloud Native', desc: 'Deploying and managing apps on AWS (EC2, S3, RDS, ECR, Lambda) with Docker containers.' },
+              { cls: 'ac-amber', icon: '⚙️', title: 'Systems Thinker', desc: 'From Celery queues to SAML auth to payment gateways — integrating complex systems reliably.' },
             ].map(c => (
               <div className={`about-card ${c.cls}`} key={c.title}>
                 <div className="card-icon">{c.icon}</div>

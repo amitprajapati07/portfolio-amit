@@ -77,7 +77,7 @@ const projects = [
 ]
 
 export default function Projects() {
-  const categories = ['All', 'Backend', 'AI/Automation', 'Fintech', 'HR/Web']
+  const categories = ['All', 'Backend', 'AI', 'Automation', 'Fintech', 'HR/Web']
   const [filter, setFilter] = useState('All')
 
   return (
@@ -95,16 +95,12 @@ export default function Projects() {
       </div>
       <div className="projects-grid">
         {projects
-          .filter(p => {
-            if (filter === 'All') return true
-            return p.cat.toLowerCase().includes(filter.toLowerCase()) ||
-              p.title.toLowerCase().includes(filter.toLowerCase())
-          })
-          .map((p, i) => (
-            <div className="card proj-card" key={p.title + i}>
+          .filter(p => filter === 'All' || p.cat.toLowerCase().includes(filter.toLowerCase()))
+          .map((p) => (
+            <div className="card proj-card" key={p.title}>
               <p className="proj-cat">{p.cat}</p>
               <h3 className="proj-title">{p.title}</h3>
-              <p className="proj-desc" dangerouslySetInnerHTML={{ __html: p.desc }} />
+              <p className="proj-desc">{p.desc}</p>
               <div className="proj-tags">
                 {p.tags.map(t => <span className="proj-tag" key={t}>{t}</span>)}
               </div>

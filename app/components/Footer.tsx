@@ -14,7 +14,7 @@ export default function Footer() {
             <a key={l} href={`#${l}`}>{l.charAt(0).toUpperCase() + l.slice(1)}</a>
           ))}
         </div>
-        <p className="footer-copy">© 2025 Amit Kumar. All rights reserved. Built with ❤️ for excellence.</p>
+        <p className="footer-copy">© {new Date().getFullYear()} Amit Kumar. All rights reserved. Built with ❤️ for excellence.</p>
       </div>
 
     </footer>

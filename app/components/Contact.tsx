@@ -24,7 +24,7 @@ export default function Contact() {
           )
 
           return s.href ? (
-            <a key={s.name} href={s.href} target="_blank" rel="noopener noreferrer">
+            <a key={s.name} href={s.href} target="_blank" rel="noopener noreferrer" aria-label={`${s.name}: ${s.value}`}>
               {content}
             </a>
           ) : (
