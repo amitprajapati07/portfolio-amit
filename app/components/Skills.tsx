@@ -1,7 +1,7 @@
 'use client'
 
-import { FaAws, FaDocker, FaRobot, FaSpaceShuttle, FaMousePointer, FaHtml5, FaCss3Alt, FaGitAlt, FaBrain, FaDatabase, FaClock, FaBitbucket, FaBug, FaVial, FaTasks, FaBook, FaServer, FaCubes, FaProjectDiagram, FaNetworkWired, FaSync, FaCreditCard } from 'react-icons/fa'
-import { SiPython, SiDjango, SiFastapi, SiFlask, SiPostgresql, SiMysql, SiMongodb, SiCelery, SiRedis, SiJavascript, SiKnexdotjs, SiOpencv, SiRazorpay, SiStripe, SiPaypal, SiReact, SiNextdotjs, SiSocketdotio, SiNginx, SiGunicorn, SiPuppeteer, SiSelenium, SiXero } from 'react-icons/si'
+import { FaAws, FaDocker, FaRobot, FaSpaceShuttle, FaMousePointer, FaHtml5, FaCss3Alt, FaGitAlt, FaBrain, FaDatabase, FaClock, FaBitbucket, FaBug, FaVial, FaTasks, FaBook, FaServer, FaCubes, FaProjectDiagram, FaNetworkWired, FaSync, FaCreditCard, FaShareAlt, FaFilter, FaRoute } from 'react-icons/fa'
+import { SiPython, SiDjango, SiFastapi, SiFlask, SiPostgresql, SiMysql, SiMongodb, SiCelery, SiRedis, SiJavascript, SiKnexdotjs, SiOpencv, SiRazorpay, SiStripe, SiPaypal, SiReact, SiNextdotjs, SiSocketdotio, SiNginx, SiGunicorn, SiPuppeteer, SiSelenium, SiXero, SiZapier, SiN8N } from 'react-icons/si'
 import { BsChatDots, BsCodeSlash, BsChatRightDots } from 'react-icons/bs'
 import { TbCube, TbApi } from 'react-icons/tb'
 import { VscAzure } from 'react-icons/vsc'
@@ -59,6 +59,11 @@ const skills = [
   { icon: <SiSelenium size={40} color="#43B02A" />, name: 'Selenium' },
   { icon: <FaTasks size={40} color="#3776AB" />, name: 'Task Mgmt' },
   { icon: <FaBook size={40} color="#24292E" />, name: 'Docs' },
+
+  // Automation & CRM
+  { icon: <SiZapier size={40} color="#FF4A00" />, name: 'Zapier' },
+  { icon: <SiN8N size={40} color="#EA4B71" />, name: 'n8n' },
+  { icon: <FaRoute size={40} color="#1E6B9F" />, name: 'Pipedrive' },
 
   // AI Tools
   { icon: <FaRobot size={40} color="#7c3aed" />, name: 'AI Agents' },

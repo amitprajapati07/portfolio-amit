@@ -74,6 +74,12 @@ const projects = [
     desc: 'Automation engine using FastAPI and Celery integrating Current RMS API to sync rental opportunities into unified ICS calendar feeds.',
     tags: ['FastAPI', 'Celery', 'Calendar Sync'],
   },
+  {
+    cat: 'Automation',
+    title: 'AI-Powered Apollo → Pipedrive Lead Automation',
+    desc: 'End-to-end lead processing workflow that captures contacts from Apollo CRM, cleans and qualifies data, scores leads with Python, and routes them into the correct sales pipeline (Factoring, Funding, Advisory) in Pipedrive. Includes automated email outreach, activity logging, and real-time spreadsheet tracking across all branches.',
+    tags: ['Zapier', 'Apollo CRM', 'Pipedrive', 'Python', 'Google Sheets', 'Email Automation'],
+  },
 ]
 
 export default function Projects() {
