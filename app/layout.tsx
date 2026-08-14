@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import ThemeProvider from './components/ThemeProvider'
 
 const start = new Date('2023-02-26')
 const yearsOfExperience = ((new Date().getTime() - start.getTime()) / 31557600000).toFixed(1)
@@ -19,7 +20,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body suppressHydrationWarning>{children}</body>
+      <body suppressHydrationWarning>
+        <ThemeProvider>
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   )
 }

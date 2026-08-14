@@ -36,7 +36,6 @@ export default function Page() {
         </section>
         <section id="contact" className="section">
           <div className="container">
-            <h2 className="section-title">Let&apos;s Connect</h2>
             <Contact />
           </div>
         </section>
