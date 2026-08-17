@@ -22,6 +22,11 @@ export default function ThemeProvider({ children }: { children: React.ReactNode 
     const resolved = stored ?? preferred
     setTheme(resolved)
     document.documentElement.setAttribute('data-theme', resolved)
+    if (resolved === 'dark') {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
   }, [])
 
   const toggle = () => {
@@ -29,6 +34,11 @@ export default function ThemeProvider({ children }: { children: React.ReactNode 
       const next: Theme = prev === 'light' ? 'dark' : 'light'
       localStorage.setItem('theme', next)
       document.documentElement.setAttribute('data-theme', next)
+      if (next === 'dark') {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
       return next
     })
   }

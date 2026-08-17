@@ -33,7 +33,8 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-inner">
         <div className="nav-logo">
-          <span style={{ color: '#e11d48' }}>{`</>`}</span> Amit Kumar
+          <span className="nav-logo-badge">{`</>`}</span>
+          <span>Amit Kumar</span>
         </div>
 
         {/* Scroll progress bar */}
