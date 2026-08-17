@@ -55,7 +55,7 @@ export default function About() {
                 Download Resume
               </a>
               <a
-                href="https://github.com/amitprajapati07"
+                href="https://github.com/amitprajapati07/amit-webworks-profile/blob/main/README.md"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-outline"

@@ -711,6 +711,133 @@ ul {
   color: var(--text-3);
 }
 
+/* ─── FEATURED PROJECTS ─── */
+.featured-projects-section {
+  margin-bottom: 56px;
+}
+
+.featured-projects-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-4);
+  margin-bottom: 20px;
+}
+
+.featured-projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.featured-proj-card {
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.featured-proj-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.featured-proj-card.featured-purple::before {
+  background: linear-gradient(90deg, #7c3aed, #9333ea, #a855f7);
+}
+
+.featured-proj-card.featured-pink::before {
+  background: linear-gradient(90deg, #e11d48, #f43f5e, #fb7185);
+}
+
+.featured-proj-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.featured-proj-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.featured-proj-emoji {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.featured-proj-cat {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-3);
+  background: var(--proj-tag-bg);
+  padding: 3px 10px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+.featured-proj-title {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--text);
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+
+.featured-proj-subtitle {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-3);
+  margin-bottom: 14px;
+  font-style: italic;
+}
+
+.featured-proj-desc {
+  font-size: 0.85rem;
+  color: var(--text-2);
+  line-height: 1.75;
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.featured-proj-modules {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.featured-module-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-2);
+  background: var(--bg-3);
+  border: 1px solid var(--border);
+  padding: 5px 12px;
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  .featured-projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
 /* ─── CONTACT ─── */
 .contact-main-card {
   max-width: 680px;

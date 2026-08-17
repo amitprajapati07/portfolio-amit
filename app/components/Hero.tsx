@@ -46,7 +46,7 @@ export default function Hero() {
               Download Resume
             </a>
             <a href="mailto:kaleranamit@gmail.com" className="filter-btn">Get in Touch</a>
-            <a href="https://github.com/amitprajapati07" target="_blank" rel="noopener noreferrer" className="filter-btn">GitHub</a>
+            <a href="https://github.com/amitprajapati07/amit-webworks-profile/blob/main/README.md" target="_blank" rel="noopener noreferrer" className="filter-btn">GitHub</a>
             <a href="https://www.linkedin.com/in/amit-kumar-prajapati-314b58249/" target="_blank" rel="noopener noreferrer" className="filter-btn">LinkedIn</a>
             <a href="https://www.hackerrank.com/profile/kaleranamit" target="_blank" rel="noopener noreferrer" className="filter-btn">HackerRank</a>
           </div>
