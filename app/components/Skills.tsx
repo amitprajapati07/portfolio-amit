@@ -121,25 +121,27 @@ export default function Skills() {
   const categories = getSkillCategories(theme === 'dark')
 
   return (
-    <div className="skills-categorized-container" data-aos="fade-up">
-      {categories.map((group) => (
-        <div className="skill-category-group" key={group.category}>
-          <div className="skill-category-header">
-            <span className="skill-category-badge">{group.category}</span>
+    <>
+      <div className="skills-categorized-container" data-aos="fade-up">
+        {categories.map((group) => (
+          <div className="skill-category-group" key={group.category}>
+            <div className="skill-category-header">
+              <span className="skill-category-badge">{group.category}</span>
+            </div>
+            <div className="skill-category-grid">
+              {group.skills.map((s) => (
+                <div className="card skill-cat-card" key={s.name}>
+                  <span className="skill-icon-svg">{s.icon}</span>
+                  <p>{s.name}</p>
+                </div>
+              ))}
+            </div>
           </div>
-          <div className="skill-category-grid">
-            {group.skills.map((s) => (
-              <div className="card skill-cat-card" key={s.name}>
-                <span className="skill-icon-svg">{s.icon}</span>
-                <p>{s.name}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      ))}
-      <div className="skills-ticker-wrapper">
+        ))}
+      </div>
+      <div className="skills-ticker-fullbleed">
         <BottomTicker />
       </div>
-    </div>
+    </>
   )
 }

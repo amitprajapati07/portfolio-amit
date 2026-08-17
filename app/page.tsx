@@ -16,7 +16,7 @@ export default function Page() {
       <main>
         <IntroBanner />
         <Hero />
-        <section id="skills" className="section">
+        <section id="skills" className="section section-no-bottom-pad">
           <div className="container">
             <h2 className="section-title"><span>⚙️</span> Skills</h2>
             <Skills />

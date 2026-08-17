@@ -9,7 +9,7 @@ import { VscAzure } from 'react-icons/vsc'
 
 function getTickerIcons(isDark: boolean) {
   const c = (light: string, dark: string) => (isDark ? dark : light)
-  const sz = 20
+  const sz = 28
 
   return [
     { icon: <SiPython size={sz} color="#3776AB" />, name: 'Python' },
